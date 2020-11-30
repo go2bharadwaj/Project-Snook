@@ -1,5 +1,5 @@
 var cars = [];
-document.getElementById("MainHeader").innerHTML = "Welcome to Project Wave!";
+document.getElementById("MainHeader").innerHTML = "Welcome to Muiz!";
 document.getElementById("buttonBegin").innerHTML = "Click to Begin";
 document.getElementById("YellowDot").innerHTML = "1";
 

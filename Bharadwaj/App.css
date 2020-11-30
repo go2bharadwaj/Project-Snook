@@ -56,7 +56,7 @@
 
 #first {
   display: table-cell;
-  border-radius: 25px;
+  border-radius: 100px;
   line-height: 100px;
   width: 150px;
   height: 175px;
@@ -75,7 +75,7 @@
 }
 #second {
   display: table-cell;
-  border-radius: 25px;
+  border-radius: 100px;
   line-height: 100px;
   width: 150px;
   height: 175px;
@@ -107,7 +107,7 @@
   font-size: 50px;
   color: #ffffff;
   margin: 40px 0px 0px 0px;
-  border-radius: 25px;
+  border-radius: 100px;
 }
 
 #button{

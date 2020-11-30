@@ -99,6 +99,16 @@ function game(){
                   let question = num1 + " - " + num2 + " = "; //string for question
                   document.getElementById("Question").innerHTML = question;
             }
+            
+            function LoadDivisionQuestion(num1,num2){
+                  let question = num1 + " / " + num2 + " = "; //string for question
+                  document.getElementById("Question").innerHTML = question;
+            }
+  
+            function LoadMultiplicationQuestion(num1,num2){
+                  let question = num1 + " x " + num2 + " = "; //string for question
+                  document.getElementById("Question").innerHTML = question;
+            }
 
             function LoadOptions(correct_num,incorrect_num){
                 let decider = generateRandom(0, 2, -1);   
@@ -119,13 +129,21 @@ function game(){
             }
             
             function LoadCorrect_num(num1, num2){
-              let decider = generateRandom(0, 2, -1);
+              let decider = generateRandom(0, 4, -1);
               let number;
                   if(decider === 0){
                      number = num1 + num2;
                      LoadAdditionQuestion(num1,num2);
                   }
-                  else{
+                  if(decider === 1){
+                     number = num1 * num2;
+                     LoadMultiplicationQuestion(num1,num2);
+                  }
+                  if(decider === 2){
+                     number = num1 / num2;
+                     LoadDivisionQuestion(num1,num2);
+                  }
+                  if(decider === 3){
                      number = num1 - num2;
                      LoadSubtractionQuestion(num1,num2);
                   }
