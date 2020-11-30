@@ -20,7 +20,6 @@
   <body>
     <!-- <script src="Bharadwaj.js" type="text/javascript"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script> <!--p5js version 1-->
-     
     
      <div id="MainHeader"></div>
      <br>
@@ -35,7 +34,8 @@ let Header = "Feed Snook the Snake!" //string for question
 document.getElementById("MainHeader").innerHTML = Header;
 
 function setup(){
-  createCanvas(395, 500);
+  createCanvas(395, 6
+               00);
   s = new Snake();
   frameRate(10);
   pickLocation();
@@ -58,7 +58,7 @@ function draw() {
     pickLocation();
   }
   
-  fill(255, 0 , 100);
+  fill(255, 0 , 200);
   rect(food.x, food.y, scl, scl);
 }
 
@@ -146,5 +146,22 @@ function Snake(){
       
     </script>
     
+    
   </body>
+  <form action="MainPage.html">
+    <input type="image"
+          src="https://cdn.glitch.com/46e0657e-aaea-4ad4-867d-ab150e2d25bf%2Fa.png?v=1606720458507"
+          height="40px"
+          width="40px"
+          align="left"
+          alt="Click to change Difficulty!"/>
+   </form>
+  <form action="SnakeGame.html" onclick="return confirm('Are you sure you want to restart? Score will not be saved!');">
+    <input type="image" name="completeYes" value="Complete Transaction"
+          src="https://cdn.glitch.com/46e0657e-aaea-4ad4-867d-ab150e2d25bf%2Fr.png?v=1606720352369"
+          height="40px" 
+          width="40px" 
+          align="right" 
+          alt="Click to Restart"/>
+   </form>
 </html>
