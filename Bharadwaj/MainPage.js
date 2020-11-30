@@ -1,7 +1,6 @@
 var cars = [];
-document.getElementById("MainHeader").innerHTML = "Welcome to Muiz!";
+document.getElementById("MainHeader").innerHTML = "Welcome to Snook!";
 document.getElementById("buttonBegin").innerHTML = "Click to Begin";
-document.getElementById("YellowDot").innerHTML = "1";
 
 
 function changeColor(newColor) {

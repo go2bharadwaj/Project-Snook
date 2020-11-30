@@ -80,7 +80,7 @@ function game(){
             
             function LoadHeader(){
               // add animation
-              document.getElementById("header111").innerHTML = " Wave ";
+              document.getElementById("header111").innerHTML = " Pro ";
               var elem1 = document.getElementById("header111");
               elem1.style.color = 'white';
             }

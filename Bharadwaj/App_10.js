@@ -75,7 +75,7 @@ function game(){
             
             function LoadHeader(){
               // add animation
-              document.getElementById("header11").innerHTML = " Wave ";
+              document.getElementById("header11").innerHTML = " Intermediate ";
               var elem1 = document.getElementById("header11");
               elem1.style.color = 'white';
             }
