@@ -34,8 +34,7 @@ let Header = "Feed Snook the Snake!" //string for question
 document.getElementById("MainHeader").innerHTML = Header;
 
 function setup(){
-  createCanvas(395, 6
-               00);
+  createCanvas(395, 650);
   s = new Snake();
   frameRate(10);
   pickLocation();
@@ -138,7 +137,7 @@ function Snake(){
       rect(this.tail[i].x,this.tail[i].y, scl,scl);
     }
     
-    fill(255)
+    fill(0,255,0)
     rect(this.x,this.y, scl,scl);
   }
 }
