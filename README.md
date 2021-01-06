@@ -1,1 +1,1 @@
-*Nothing to see here, check out index.html!*
+Used Google's Motion Sense radar technology to develop a gesture-based intuitive Snake Game.
